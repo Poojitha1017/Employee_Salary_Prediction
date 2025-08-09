@@ -39,9 +39,12 @@ job_title_input = st.text_input("💼 Enter Job Title:")
 # Prediction
 # --------------------
 if st.button("🔮 Predict Salary"):
-    if job_title_input.strip() == "":
+    if st.button("🔮 Predict Salary"):
+     if education_input.strip() == "":
+        st.warning("⚠️ Please enter an Education Level before predicting.")
+     elif job_title_input.strip() == "":
         st.warning("⚠️ Please enter a Job Title before predicting.")
-    else:
+     else:
         # Match preprocessing from training
         log_experience = np.log1p(experience_input)
         user_input = pd.DataFrame(
