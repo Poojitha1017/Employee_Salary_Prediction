@@ -7,7 +7,7 @@ A simple web application built using Streamlit to predict salaries based on:
 - Job Title
 
 ## 💡 Features
-- Machine learning model (Linear Regression with Log-transformed experience)
+- Machine learning model (Random Forest Regression with Log-transformed experience)
 - Fully interactive UI
 - Deployed using Streamlit Cloud
 
