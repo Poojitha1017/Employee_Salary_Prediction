@@ -1,5 +1,10 @@
 # 🧠 Employee Salary Prediction
 
+## 🚀 Live Demo
+Try the app here: [Employee Salary Predictor](https://employeesalaryprediction-ebhdqn9vbeueqdt4sp8ffa.streamlit.app/)
+
+
+
 A simple web application built using Streamlit to predict salaries based on:
 
 - Education Level
