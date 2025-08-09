@@ -61,4 +61,4 @@ if st.button("🔮 Predict Salary"):
 # Footer
 # --------------------
 st.markdown("---")
-st.caption("Built with ❤️ using Streamlit & Random Forest")
+
